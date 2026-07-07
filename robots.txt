@@ -1,0 +1,29 @@
+# robots.txt - Oráculo Digital
+# Permitimos el acceso a rastreadores tradicionales y de IA.
+
+User-agent: *
+Allow: /
+
+# Rastreadores de buscadores de IA (explícitos por claridad)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+Sitemap: https://oraculodigital.com.mx/sitemap.xml
